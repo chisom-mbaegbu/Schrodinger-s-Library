@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schrodingers on Schrodingers Library</title>
+    <link>../public/tags/schrodingers/</link>
+    <description>Recent content in Schrodingers on Schrodingers Library</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 16:20:20 +0200</lastBuildDate>
+    
+	<atom:link href="../public/tags/schrodingers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Experience</title>
+      <link>../public/blog/2019/04/06/experience/</link>
+      <pubDate>Sat, 06 Apr 2019 16:20:20 +0200</pubDate>
+      
+      <guid>../public/blog/2019/04/06/experience/</guid>
+      <description>After almost 4 months of development, we gathered and talked about everything done and not done. These are some of the ideas discussed:
+What do we thing about the architecture of our system? A 3-tier-architecture was very comfortable for us. It is very easy to learn, and the work flow was very
+What went wrong in the development process? We lacked of communication in the first months of this project.</description>
+    </item>
+    
+    <item>
+      <title>More about our vision statement</title>
+      <link>../public/blog/2019/04/06/vision/</link>
+      <pubDate>Sat, 06 Apr 2019 16:00:46 +0200</pubDate>
+      
+      <guid>../public/blog/2019/04/06/vision/</guid>
+      <description>Schrodinger&amp;rsquo;s Library is a book ordering system which allows ordinary people to browse for books they are interested in, as well as purchase and order them. It will provide a catalogue with a large variety of books to choose from, offering an experience similar to shopping at a bookstore.
+The service is designed for anyone who wants the ease of purchasing a book without going to the bookstore physically to browse and buy a book.</description>
+    </item>
+    
+    <item>
+      <title>Detailed Instructions</title>
+      <link>../public/blog/2019/04/06/instructions/</link>
+      <pubDate>Sat, 06 Apr 2019 13:47:08 +0200</pubDate>
+      
+      <guid>../public/blog/2019/04/06/instructions/</guid>
+      <description>After installing Schrodingers Library, you will be able to browse through our catalog. If you are looking for a specific book, search for the book with the use of the search bar. We won&amp;rsquo;t force you to create an account with us if you only want to see the books available and their ratings, but you can create an account if you would like to use our app at its full potential.</description>
+    </item>
+    
+  </channel>
+</rss>

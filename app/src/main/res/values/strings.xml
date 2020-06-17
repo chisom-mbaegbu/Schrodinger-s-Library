@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Schrodingers Library</string>
+    <string name="action_search">action_search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">Schrodingers Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_view_book_info">ViewBookInfoActivity</string>
+    <string name="todo">TODO</string>
+    <string name="book_image">book image</string>
+    <string name="title_activity_seaech">SeaechActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="username">username</string>
+    <string name="email">juanito@gmail.com</string>
+    <string name="billing">0000000000000000</string>
+    <string name="address">6 Chancellor Circle</string>
+    <string name="phone">+120488888888</string>
+    <string name="title_activity_person_info">PersonInfo</string>
+    <string name="cardDate">01/99</string>
+    <string name="cardCvv">123</string>
+    <string name="fatalError">Fatal Error</string>
+    <string name="warning">Warning</string>
+    <string name="cardName">JUANITO ALCACHOFA</string>
+    <string name="changes_applied">Changes Applied</string>
+    <string name="city">Winnipeg</string>
+    <string name="province">Manitoba</string>
+    <string name="zip">R3T 2N2</string>
+    <string name="country">Canada</string>
+    <string name="book_image_button">Book Image Button</string>
+    <string name="ratings">Ratings</string>
+    <string name="please_rate_this_book">Please Rate This Book</string>
+    <string name="rateButton">Submit</string>
+    <string name="wishButton">Add To Wishlist</string>
+    <string name="wishAdded">Added To Wishlist</string>
+    <string name="wishAlreadyAdded">Book Has Already Been Added to Wishlist</string>
+    <string name="viewList">View Wishlist</string>
+    <string name="myWishlist">My Wishlist</string>
+    <string name="purchaseButton">Purchase Book</string>
+    <string name="shoppingCart">Shopping Cart</string>
+    <string name="cartButton">Add to Shopping Cart</string>
+    <string name="addedToCart">Added to Shopping Cart</string>
+    <string name="viewCartButton">View Shopping Cart</string>
+    <string name="alreadyAddedToCart">Book Has Already Been Added to Shopping Cart</string>
+    <string name="reviewOrder">Review Your Order</string>
+    <string name="checkout">Proceed to Checkout</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="billingAddressInformation">Billing Address Information</string>
+    <string name="creditCardInformation">Credit Card Information</string>
+    <string name="purchaseHistory">Purchase History</string>
+    <string name="createAccount">Create Account</string>
+    <string name="login">Login</string>
+    <string name="haveAccount">Have an Account?</string>
+    <string name="updateInfo">Update Info</string>
+    <string name="personalInfo">Personal Info</string>
+    <string name="paymentInfo">Payment Info</string>
+    <string name="logout">Logout</string>
+    <string name="enterAddress">Please Enter Billing Address</string>
+    <string name="enterCredit">Please Enter Credit Card</string>
+    <string name="success">Success! You have ordered:</string>
+    <string name="myGenres">Spinner Example</string>
+    <string name="checkoutComplete">Success! You have ordered:</string>
+    <string name="genre">Sort By Genre</string>
+    <string name="price">Sort By Price</string>
+    <string name="failedCheckout">Please Complete Unfilled Information</string>
+    <string name="genreReccs">Please select a Genre</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="returnHome">Return to Home Page</string>
+    <string name="emptyCart">Empty Shopping Cart</string>
+    <string-array name="genres">
+        <item>Fiction</item>
+        <item>Non-Fiction</item>
+        <item>Action</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Thriller</item>
+        <item>Comedy</item>
+    </string-array>
+</resources>

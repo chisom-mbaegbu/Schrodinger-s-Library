@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/review_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/review_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reviewOrder"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/review_address_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/billingAddressInformation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/review_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_postalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/enterAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/review_purchase_button_margin"
+            android:layout_marginTop="@dimen/review_purchase_button_margin"
+            android:layout_marginRight="@dimen/review_purchase_button_margin"
+            android:background="@color/colorPrimary"
+            android:text="@string/enterAddress"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/review_creditcard_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/creditCardInformation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/review_creditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_cardName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/review_expiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/enterCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/review_purchase_button_margin"
+            android:layout_marginTop="@dimen/review_purchase_button_margin"
+            android:layout_marginRight="@dimen/review_purchase_button_margin"
+            android:background="@color/colorPrimary"
+            android:text="@string/enterCredit"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/review_books_heading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/shoppingCart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25sp" />
+
+        <ListView
+            android:id="@+id/ShoppingCartReview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subtotalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <TextView
+            android:id="@+id/subtotal_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/subtotal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/placeOrder"
+        android:layout_marginLeft="@dimen/review_purchase_button_margin"
+        android:layout_marginRight="@dimen/review_purchase_button_margin"
+        android:layout_marginBottom="@dimen/review_purchase_button_margin"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

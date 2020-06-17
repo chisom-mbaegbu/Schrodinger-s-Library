@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="98dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/loginMessage"
+            android:layout_width="415dp"
+            android:layout_height="55dp"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="143dp"
+            android:text="@string/haveAccount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:layout_marginLeft="@dimen/review_purchase_button_margin"
+            android:layout_marginRight="@dimen/review_purchase_button_margin"
+            android:layout_marginTop="@dimen/logged_button_top_margin"/>
+
+        <Button
+            android:id="@+id/account_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/createAccount"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:layout_marginLeft="@dimen/review_purchase_button_margin"
+            android:layout_marginRight="@dimen/review_purchase_button_margin"
+            android:layout_marginTop="@dimen/logged_button_top_margin"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

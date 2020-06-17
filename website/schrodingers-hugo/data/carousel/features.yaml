@@ -1,0 +1,10 @@
+weight: 1
+title: "A great list of features"
+description: >
+  <ul class="list-style-none">
+     <li>Order</li>
+     <li>Rate and Review</li>
+     <li>Wishlist</li>
+     <li>Search</li>
+   </ul>
+image: "img/carousel/feat.png"
